@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="" class="link">Github Repo</a>
+        </nav>
+        <div class="hero">
+            <div class="hero-container">
+                <h1 class="heading">Check out if your birthday is Palindrome.</h1>
+                <p class="hero-para">A palindrome is a number/word that remains the same when its digits/letter's are reversed.</p>
+                <img src="calendar.jpg" class="hero-img">
+                <a href="#content" class="link"><div class="button-primary">Let's Go</div></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="content">
+        <h1 class="heading">Enter your birthdate & we will tell you if your birthdate is a palindrome</h1>
+        <p>This app checks your birthdate in 3 formats <em>yyyy-mm-dd, mm-dd-yyyy and mm-dd-yy</em> </p>
+         <p> e.g. if your birthdate is 16 May 1998, then app will check for 19980516, 05161998, 051698</p>
+
+         <div class="input-container">
+             <input type="date" id="date" class="date-input">
+             <button class="input-button" id="btn">check</button>
+             <img src="loading.gif" id="timer-img" class="hidden">
+         </div>
+         <div id="not-palindrome"></div>
+         <div id="palindrome"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="link-div">
+            <a href="" class="social-links"><i class="fab fa-instagram"></i></a>
+            <a href="" class="social-links"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social-links"><i class="fab fa-linkedin-in"></i></a>
+            <a href="" class="social-links"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="legal">
+            @ 2021 | coderAditya | <a href="" class="link">Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a7cf34d87a.js" crossorigin="anonymous" ></script>
+    <script src="app.js"></script>
+</body>
+</html>
