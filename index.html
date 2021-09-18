@@ -11,7 +11,6 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="" class="link">Github Repo</a>
         </nav>
         <div class="hero">
             <div class="hero-container">
@@ -25,16 +24,13 @@
 
     <section class="section" id="content">
         <h1 class="heading">Enter your birthdate & we will tell you if your birthdate is a palindrome</h1>
-        <p>This app checks your birthdate in 3 formats <em>yyyy-mm-dd, mm-dd-yyyy and mm-dd-yy</em> </p>
-         <p> e.g. if your birthdate is 16 May 1998, then app will check for 19980516, 05161998, 051698</p>
 
          <div class="input-container">
              <input type="date" id="date" class="date-input">
              <button class="input-button" id="btn">check</button>
              <img src="loading.gif" id="timer-img" class="hidden">
          </div>
-         <div id="not-palindrome"></div>
-         <div id="palindrome"></div>
+         <div class="result"></div>
     </section>
 
     <footer class="footer">

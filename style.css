@@ -17,6 +17,7 @@ header {
     display: flex;
     padding: 1rem;
     font-size: 20px;
+    height: 22px;
 }
 
 .link {
